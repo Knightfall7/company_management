@@ -1,7 +1,7 @@
 package org.example;
 
 public class Developer extends Employee{
-    private String programmingLanguage;
+    private final String programmingLanguage;
     public Developer (String name, String programmingLanguage){
         super(name);
         this.programmingLanguage = programmingLanguage;
