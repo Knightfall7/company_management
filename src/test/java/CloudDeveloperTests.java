@@ -1,10 +1,18 @@
-import org.example.CloudDeveloper;
+import org.example.Employees.CloudDeveloper;
 import org.example.Website;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CloudDeveloperTests {
+    CloudDeveloper cloudDeveloper;
+
+    @BeforeEach
+    public void init(){
+        cloudDeveloper = new CloudDeveloper("Chris Nkuutu", "Java");
+
+    }
 
     @Test
     public void testFixWebsite(){

@@ -4,16 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb33b92b-6fbd-470f-a814-e05bb68de74a" name="Changes" comment="" />
+    <list default="true" id="fb33b92b-6fbd-470f-a814-e05bb68de74a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Employees/ICanProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OfficeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UtilitiesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CloudDeveloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employees/CloudDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employees/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employees/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Employees/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CloudDeveloperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CloudDeveloperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeveloperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeveloperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -26,9 +48,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2YTfD2zmckf3ZOUPq5bFwn7DrEO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,69 +59,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.All in company_management">
-    <configuration name="All in company_management" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="company_management" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloudDeveloperTests.testFixWebsite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="company_management" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CloudDeveloperTests" />
-      <option name="METHOD_NAME" value="testFixWebsite" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeveloperTests.testGetProgrammingLanguage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.java in company_management">
+    <configuration name="DeveloperTests.testProgram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="company_management" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DeveloperTests" />
-      <option name="METHOD_NAME" value="testGetProgrammingLanguage" />
+      <option name="METHOD_NAME" value="testProgram" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTests.testEatFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTests.testGetNoiseLevelHigh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="company_management" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeTests" />
-      <option name="METHOD_NAME" value="testEatFood" />
+      <option name="MAIN_CLASS_NAME" value="UtilitiesTests" />
+      <option name="METHOD_NAME" value="testGetNoiseLevelHigh(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTests.testSendFeedback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitiesTests.testGetNoiseLevelMedium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="company_management" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmployeeTests" />
-      <option name="METHOD_NAME" value="testSendFeedback" />
+      <option name="MAIN_CLASS_NAME" value="UtilitiesTests" />
+      <option name="METHOD_NAME" value="testGetNoiseLevelMedium(int)" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitiesTests.testMakeStringLowercase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company_management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilitiesTests" />
+      <option name="METHOD_NAME" value="testMakeStringLowercase(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilityTests.testIsOddFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company_management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilityTests" />
+      <option name="METHOD_NAME" value="testIsOddFalse(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilityTests.testIsOddTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company_management" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilityTests" />
+      <option name="METHOD_NAME" value="testIsOddTrue(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in company_management" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company_management" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in company_management" />
-        <item itemvalue="JUnit.EmployeeTests.testSendFeedback" />
-        <item itemvalue="JUnit.EmployeeTests.testEatFood" />
-        <item itemvalue="JUnit.CloudDeveloperTests.testFixWebsite" />
-        <item itemvalue="JUnit.DeveloperTests.testGetProgrammingLanguage" />
+        <item itemvalue="JUnit.java in company_management" />
+        <item itemvalue="JUnit.DeveloperTests.testProgram" />
+        <item itemvalue="JUnit.UtilitiesTests.testGetNoiseLevelHigh" />
+        <item itemvalue="JUnit.UtilitiesTests.testMakeStringLowercase" />
+        <item itemvalue="JUnit.UtilitiesTests.testGetNoiseLevelMedium" />
       </list>
     </recent_temporary>
   </component>

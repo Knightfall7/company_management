@@ -1,6 +1,6 @@
-package org.example;
+package org.example.Employees;
 
-public class Developer extends Employee{
+public class Developer extends Employee implements ICanProgram{
     private final String programmingLanguage;
     public Developer (String name, String programmingLanguage){
         super(name);
@@ -22,5 +22,12 @@ public class Developer extends Employee{
 
     public String getProgrammingLanguage() {
         return programmingLanguage;
+    }
+
+    @Override
+    public String program() {
+        return name + " writes some " + programmingLanguage;
+
+
     }
 }

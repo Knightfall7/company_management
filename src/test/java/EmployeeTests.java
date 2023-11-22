@@ -1,9 +1,16 @@
-import org.example.Employee;
+import org.example.Employees.Employee;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class EmployeeTests {
+    Employee employee;
+    @BeforeEach
+    public void init(){
+        employee = new Employee("Chris");
+
+    }
     @Test
     public void testConstructorSetName() {
         var employee = new Employee("Chris");

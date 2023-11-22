@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Employees;
 
 public class Employee extends Person {
     public Employee(String name){
@@ -13,11 +13,7 @@ public class Employee extends Person {
     }
 
     public void setName(String name) {
-
-
-       String firstCharacter =  name.substring(0, 1).toUpperCase();
-       String rest = name .substring(1);
-        this.name = firstCharacter + rest;
+        this.name = capitalizeFirstLetter(name);
     }
 
     @Override
